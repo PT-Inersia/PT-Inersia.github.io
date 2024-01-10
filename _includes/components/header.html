@@ -1,3 +1,15 @@
+<style>
+  #main-header {
+    display: flex;
+    align-items: center;
+  }
+
+  .js-toggle-dark-mode {
+    height: 30px; /* Set the desired height */
+    
+  }
+</style>
+
 <div id="main-header" class="main-header">
   {% if site.search_enabled != false %}
     {% include components/search_header.html %}
@@ -18,5 +30,6 @@
         toggleDarkMode.textContent = 'Light Mode';
       }
     });
+
   </script>
 </div>
