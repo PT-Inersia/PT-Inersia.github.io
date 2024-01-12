@@ -1,5 +1,7 @@
 {% if site.logo %}
-  <div class="site-logo" role="img" aria-label="{{ site.title }}"></div>
-{% else %}
+  <div class="site-logo v-align-middle" role="img" aria-label="{{ site.title }}">
+    <h3 class="site-title fs-7 text-grey-dk-100 fw-700 mb-0 pl-xl-7 pl-lg-7 pl-md-7 pl-9 d-flex align-items-right v-align-middle" role="header" aria-label="{{ site.title }}">{{ site.title }}</h3>
+  </div>
+  {% else %}
   {{ site.title }}
 {% endif %}
