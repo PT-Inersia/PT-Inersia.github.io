@@ -1,17 +1,16 @@
 <div class="d-flex text-center my-4">
-    <button class="btn js-toggle-dark-mode py-0 ml-2">Dark Mode</button>
-  </div>
-  <script>
-    const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
-  
-    jtd.addEvent(toggleDarkMode, 'click', function(){
-      if (jtd.getTheme() === 'dark') {
-        jtd.setTheme('light');
-        toggleDarkMode.textContent = 'Dark Mode';
-      } else {
-        jtd.setTheme('dark');
-        toggleDarkMode.textContent = 'Light Mode';
-      }
-    });
-  </script>
-  
+  <button class="btn js-toggle-dark-mode py-0 ml-2">Dark Mode</button>
+</div>
+<script>
+  const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+  jtd.addEvent(toggleDarkMode, 'click', function(){
+    if (jtd.getTheme() === 'dark') {
+      jtd.setTheme('light');
+      toggleDarkMode.textContent = 'Dark Mode';
+    } else {
+      jtd.setTheme('dark');
+      toggleDarkMode.textContent = 'Light Mode';
+    }
+  });
+</script>
