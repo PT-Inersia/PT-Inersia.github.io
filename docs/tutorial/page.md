@@ -16,41 +16,26 @@ nav_order: 1
 
 ---
 
-## Basic button styles
-
-### Links that look like buttons
+## Mengedit Melalui Github
 
 <div class="code-example" markdown="1">
-[Link button](https://just-the-docs.com){: .btn }
+1. Buka page yang ingin diedit, misal ingin mengedit konten pada page `Tutorial`.
 
-[Link button](https://just-the-docs.com){: .btn .btn-purple }
-[Link button](https://just-the-docs.com){: .btn .btn-blue }
-[Link button](https://just-the-docs.com){: .btn .btn-green }
+![](../../../assets/images/page.jpg)
 
-[Link button](https://just-the-docs.com){: .btn .btn-outline }
+1. Scroll menuju bagian bawah page. Tekan pada `Edit this page on GitHub`.
+
+![](../../../assets/images/link-page.jpg)
+
+1. Item 3
+
+![](../../../assets/images/git-page.jpg)
+
+1. Item 3
+
+![](../../../assets/images/code-page.jpg)
+
 </div>
-```markdown
-[Link button](https://just-the-docs.com){: .btn }
-
-[Link button](https://just-the-docs.com){: .btn .btn-purple }
-[Link button](https://just-the-docs.com){: .btn .btn-blue }
-[Link button](https://just-the-docs.com){: .btn .btn-green }
-
-[Link button](https://just-the-docs.com){: .btn .btn-outline }
-```
-
-### Button element
-
-GitHub Flavored Markdown does not support the `button` element, so you'll have to use inline HTML for this:
-
-<div class="code-example">
-<button type="button" name="button" class="btn">Button element</button>
-</div>
-```html
-<button type="button" name="button" class="btn">Button element</button>
-```
-
----
 
 ## Using utilities with buttons
 
