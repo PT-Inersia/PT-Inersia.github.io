@@ -8,7 +8,7 @@ permalink: /docs/tutorial
 
 # Tutorial
 
-Sebelum mengedit, menambahkan, atau menghapus konten, alangkah baiknya membaca tutorial-tutorial berikut ini.
+Sebelum mengedit, menambahkan, atau menghapus konten, alangkah baiknya membaca tutorial-tutorial di bagian ini.
 {: .fs-5 .fw-300 }
 
 {: .important }
