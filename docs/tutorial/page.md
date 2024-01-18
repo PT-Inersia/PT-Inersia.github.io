@@ -123,16 +123,30 @@ git remote -v
 
 jika pengeditan sudah selesai, maka perlu dilakukan commit (agar perubahan tersimpan) dan push (untuk memasukan hasil pengeditan ke repository Github)
 
-#### Menggunakan terminal
-
 <div class="code-example" markdown="1">
 
+1. Pada terminal, ketikkan kode commit di bawah ini (`[Commit comment]` dapat diganti sesuai keinginan)
 
+```
+git commit -m "[Commit comment]"
+```
+
+{:style="counter-reset:none"}
+2. Push ke repository Github pada branch `main`.
+
+```
+git push origin main
+```
 
 </div>
 
-#### Menggunakan VS Code
+Jika menggunakan VS Code, maka tinggal buka bar `Source Control`, tulis pesan yang diinginkan pada kolom `message` dan tekan `Commit`. 
 
-<div class="code-example" markdown="1">
+{: .warning}
+Perhatikan bahwa pesan harus ditulis agar tidak terjadi error!
 
-</div>
+![](../../../assets/images/commit2-page.jpg)
+
+Jika telah berhasil di-commit, maka akan muncul tombol `Sync`. Tekan tombol tersebut untuk mengsinkronisasi hasil commit-nya.
+
+
