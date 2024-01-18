@@ -147,6 +147,8 @@ Perhatikan bahwa pesan harus ditulis agar tidak terjadi error!
 
 ![](../../../assets/images/commit2-page.jpg)
 
-Jika telah berhasil di-commit, maka akan muncul tombol `Sync`. Tekan tombol tersebut untuk mengsinkronisasi hasil commit-nya.
+Jika telah berhasil di-commit, maka akan muncul tombol `Sync Changes`. Tekan tombol tersebut untuk mengsinkronisasi hasil commit-nya.
+
+![](../../../assets/images/sync-page.jpg)
 
 
