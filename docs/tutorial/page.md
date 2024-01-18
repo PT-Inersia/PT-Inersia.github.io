@@ -55,13 +55,76 @@ nav_order: 1
 
 ## Mengedit Secara Lokal (locally)
 
-Untuk mengedit page secara lokal, maka dapat menggunakan aplikasi pendukung, seperti `Visual Code Studio`.
+{: .important }
+Untuk mengedit page secara lokal, maka dapat menggunakan aplikasi pendukung, seperti `Visual Code Studio`. Selain itu, diperlukan menginstall library `ruby gem` terlebih dahulu. Klik di sini untuk melihat tutorialnya.
+
+### Menjalankan Page Lokal
 
 <div class="code-example" markdown="1">
-1. Buka terminal, arahkan pada directory yang diinginkan untuk meletakkan folder clone dari repository.
+1. Buka terminal, arahkan pada folder yang diinginkan untuk meletakkan clone dari repository. 
 
-```js
+```markdown
 cd [directory]
 ```
+
+ganti `[directory]` dengan path folder.
+
+{:style="counter-reset:none"}
+2. Clone repository page tersebut dengan mengetikkan kode di bawah.
+
+```markdown
+ git clone https://github.com/PT-Inersia/PT-Inersia.github.io.git
+```
+
+{:style="counter-reset:none"}
+3. Pastikan terminal telah diarahkan pada folder yang di-clone, jalankan page dengan kode berikut.
+
+```markdown
+bundle exec jekyll serve
+```
+
+{:style="counter-reset:none"}
+4. Tampilan web secara default menggunakan port `:4000` seperti pada gambar di bawah. Salin alamat web tersebut di browser.
+
+![](../../../assets/images/server-page.jpg)
+
+{:style="counter-reset:none"}
+5. Sekarang sudah bisa mengedit page tersebut. Jika ingin mengedit isi konten, dapat ditemukan pada folder `docs` yang berekstensi `.md`. Tekan `CTRL + C` pada terminal jika ingin menghentikan sesi.
+
+</div>
+
+### Menghubungkan dengan Repository Github
+
+<div class="code-example" markdown="1">
+1. Pada terminal, buka folder clone sebelumnya. Remote repository Github menggunakan kode di bawah.
+
+```markdown
+git remote add origin https://github.com/PT-Inersia/PT-Inersia.github.io.git
+```
+
+{:style="counter-reset:none"}
+2. Cek apakah sudah terhubung atau belum.
+
+```js
+git remote -v
+```
+
+{:style="counter-reset:none"}
+3. Jika berhasil, maka akan muncul teks berikut:
+
+```s
+> origin  https://github.com/PT-Inersia/PT-Inersia.github.io.git (fetch)
+> origin  https://github.com/PT-Inersia/PT-Inersia.github.io.git (push)
+```
+
+</div>
+
+### Commit dan Push
+
+jika pengeditan sudah selesai, maka perlu dilakukan commit (agar perubahan tersimpan) dan push (untuk me ke repository Github)
+
+<div class="code-example" markdown="1">
+
+1. Commit dan Push menggunakan terminal
 
 </div>
