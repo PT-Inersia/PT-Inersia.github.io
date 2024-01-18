@@ -121,10 +121,18 @@ git remote -v
 
 ### Commit dan Push
 
-jika pengeditan sudah selesai, maka perlu dilakukan commit (agar perubahan tersimpan) dan push (untuk me ke repository Github)
+jika pengeditan sudah selesai, maka perlu dilakukan commit (agar perubahan tersimpan) dan push (untuk memasukan hasil pengeditan ke repository Github)
+
+#### Menggunakan terminal
 
 <div class="code-example" markdown="1">
 
-1. Commit dan Push menggunakan terminal
+
+
+</div>
+
+#### Menggunakan VS Code
+
+<div class="code-example" markdown="1">
 
 </div>
