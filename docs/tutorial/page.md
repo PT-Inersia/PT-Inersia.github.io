@@ -58,39 +58,10 @@ nav_order: 1
 Untuk mengedit page secara lokal, maka dapat menggunakan aplikasi pendukung, seperti `Visual Code Studio`.
 
 <div class="code-example" markdown="1">
-<span class="fs-6">
-[Big ass button](https://just-the-docs.com){: .btn }
-</span>
+1. Buka terminal, arahkan pada directory yang diinginkan untuk meletakkan folder clone dari repository.
 
-<span class="fs-3">
-[Tiny ass button](https://just-the-docs.com){: .btn }
-</span>
-</div>
-```markdown
-<span class="fs-8">
-[Link button](https://just-the-docs.com){: .btn }
-</span>
-
-<span class="fs-3">
-[Tiny ass button](https://just-the-docs.com){: .btn }
-</span>
+```js
+cd [directory]
 ```
 
-### Spacing between buttons
-
-Use the [margin utility classes]({% link docs/utilities/layout.md %}#spacing) to add spacing between two buttons in the same block.
-
-<div class="code-example" markdown="1">
-[Button with space](https://just-the-docs.com){: .btn .btn-purple .mr-2 }
-[Button](https://just-the-docs.com){: .btn .btn-blue }
-
-[Button with more space](https://just-the-docs.com){: .btn .btn-green .mr-4 }
-[Button](https://just-the-docs.com){: .btn .btn-blue }
 </div>
-```markdown
-[Button with space](https://just-the-docs.com){: .btn .btn-purple .mr-2 }
-[Button](https://just-the-docs.com){: .btn .btn-blue }
-
-[Button with more space](https://just-the-docs.com){: .btn .btn-green .mr-4 }
-[Button](https://just-the-docs.com){: .btn .btn-blue }
-```
