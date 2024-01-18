@@ -140,10 +140,6 @@ git push origin main
 
 </div>
 
-<div>
-
-</div>
-
 <div class="code-example" markdown="1">
 Jika menggunakan VS Code, maka tinggal buka bar `Source Control`, tulis pesan yang diinginkan pada kolom `message` dan tekan `Commit`. 
 

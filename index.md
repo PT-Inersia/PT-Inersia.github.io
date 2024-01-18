@@ -4,16 +4,15 @@ title: Home
 nav_order: 1
 description: "Website ini digunakan untuk mendokumentasikan aset-aset yang dimiliki PT Inersia."
 permalink: /
----
 
+---
 # PT Inersia
 {: .fs-9 }
 
 Website ini digunakan untuk mendokumentasikan aset-aset yang dimiliki oleh PT Inersia.
 {: .fs-6 .fw-300 }
 
-[Buka di Github](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View it on GitHub][Just the Docs repo]{: .btn .fs-5 .mb-4 .mb-md-0 }
+[Buka di Github](https://github.com/PT-Inersia/PT-Inersia.github.io){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 ---
 
@@ -63,9 +62,9 @@ email, or any other method with the owners of this repository before making a ch
 #### Thank you to the contributors of Just the Docs!
 
 <ul class="list-style-none">
-{% for contributor in site.github.contributors %}
+{% for person in site.github.contributors %}
   <li class="d-inline-block mr-1">
-     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"></a>
+     <a href="{{ person.html_url }}"><img src="{{ person.avatar_url }}" width="32" height="32" alt="{{ person.login }}"></a>
   </li>
 {% endfor %}
 </ul>
