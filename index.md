@@ -12,7 +12,8 @@ permalink: /
 Website ini digunakan untuk mendokumentasikan aset-aset yang dimiliki oleh PT Inersia.
 {: .fs-6 .fw-300 }
 
-[Buka di Github](https://github.com/PT-Inersia/PT-Inersia.github.io.git){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Buka di Github](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[View it on GitHub][Just the Docs repo]{: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -57,7 +58,7 @@ Just the Docs is distributed by an [MIT license](https://github.com/just-the-doc
 ### Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/PT-Inersia/PT-Inersia.github.io.git#contributing).
+email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/just-the-docs/just-the-docs#contributing).
 
 #### Thank you to the contributors of Just the Docs!
 
@@ -73,7 +74,7 @@ email, or any other method with the owners of this repository before making a ch
 
 Just the Docs is committed to fostering a welcoming community.
 
-[View our Code of Conduct](https://github.com/PT-Inersia/PT-Inersia.github.io/tree/main/CODE_OF_CONDUCT.md) on our GitHub repository.
+[View our Code of Conduct](https://github.com/just-the-docs/just-the-docs/tree/main/CODE_OF_CONDUCT.md) on our GitHub repository.
 
 ----
 
@@ -86,11 +87,11 @@ Just the Docs is committed to fostering a welcoming community.
 [Liquid]: https://github.com/Shopify/liquid/wiki
 [Front matter]: https://jekyllrb.com/docs/front-matter/
 [Jekyll configuration]: https://jekyllrb.com/docs/configuration/
-[source file for this page]: https://github.com/PT-Inersia/PT-Inersia.github.io/blob/main/index.md
+[source file for this page]: https://github.com/just-the-docs/just-the-docs/blob/main/index.md
 [Just the Docs Template]: https://just-the-docs.github.io/just-the-docs-template/
 [Just the Docs]: https://just-the-docs.com
-[Just the Docs repo]: https://github.com/PT-Inersia/PT-Inersia.github.io.git
-[Just the Docs README]: hhttps://github.com/PT-Inersia/PT-Inersia.github.io/blob/main/README.md
+[Just the Docs repo]: https://github.com/just-the-docs/just-the-docs
+[Just the Docs README]: https://github.com/just-the-docs/just-the-docs/blob/main/README.md
 [GitHub Pages]: https://pages.github.com/
 [Template README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
 [GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
