@@ -89,7 +89,12 @@ bundle exec jekyll serve
 ![](../../../assets/images/server-page.jpg)
 
 {:style="counter-reset:none"}
-5. Sekarang sudah bisa mengedit page tersebut. Jika ingin mengedit isi konten, dapat ditemukan pada folder `docs` yang berekstensi `.md`. Tekan `CTRL + C` pada terminal jika ingin menghentikan sesi.
+5. Sekarang sudah bisa mengedit page tersebut. Jika ingin mengedit isi konten, dapat ditemukan pada folder `docs` yang berekstensi `.md`. 
+
+![](../../../assets/images/docs-page.jpg)
+
+{:style="counter-reset:none"}
+6. Tekan `CTRL + C` pada terminal jika ingin menghentikan sesi.
 
 </div>
 
