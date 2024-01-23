@@ -86,12 +86,12 @@ bundle exec jekyll serve
 {:style="counter-reset:none"}
 4. Tampilan web secara default menggunakan port `:4000` seperti pada gambar di bawah. Salin alamat web tersebut di browser.
 
-![](../../../edit/tutorial/assets/images/server-page.jpg)
+![](../../../assets/images/tutorial/edit/server-page.jpg)
 
 {:style="counter-reset:none"}
 5. Sekarang sudah bisa mengedit page tersebut. Jika ingin mengedit isi konten, dapat ditemukan pada folder `docs` yang berekstensi `.md`. 
 
-![](../../../edit/tutorial/assets/images/docs-page.jpg)
+![](../../../assets/images/tutorial/edit/docs-page.jpg)
 
 {:style="counter-reset:none"}
 6. Tekan `CTRL + C` pada terminal jika ingin menghentikan sesi.
@@ -151,10 +151,10 @@ Jika menggunakan VS Code, maka tinggal buka bar `Source Control`, tulis pesan ya
 {: .warning}
 Perhatikan bahwa pesan harus ditulis agar tidak terjadi error!
 
-![](../../../edit/tutorial/assets/images/commit2-page.jpg)
+![](../../../assets/images/tutorial/edit/commit2-page.jpg)
 
 Jika telah berhasil di-commit, maka akan muncul tombol `Sync Changes`. Tekan tombol tersebut untuk mengsinkronisasi hasil commit-nya.
 
-![](../../../edit/tutorial/assets/images/sync-page.jpg)
+![](../../../assets/images/tutorial/edit/sync-page.jpg)
 </div>
 
