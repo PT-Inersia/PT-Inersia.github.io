@@ -68,7 +68,7 @@ Ubah `[title]` sesuai judul page, Di bawahnya terdapat kode untuk daftar isi (ta
 ## Menambahkan Sub-Page (Parent & Child)
 
 <div class="code-example" markdown="1">
-1. Pada folder **doc**, tambahkan folder baru. Untuk menambahkannya, buka `Create new file...` dan ketikkan nama folder dan tambahkan tanda `/` maka folder akan otomatis terbuat. Setelah itu, buat file dengan format `.md` seperti sebelumnya.
+1. Pada folder **doc**, tambahkan folder baru. Untuk menambahkannya, buka `Create new file...` dan ketikkan nama folder, tambahkan tanda `/` maka folder akan otomatis terbuat. Setelah itu, buat file dengan format `.md` seperti sebelumnya.
 
 ![](../../../assets/images/tutorial/add/folder.jpg)
 
