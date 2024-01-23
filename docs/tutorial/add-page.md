@@ -19,7 +19,7 @@ nav_order: 2
 ## Menambahkan Page Baru
 
 <div class="code-example" markdown="1">
-1. Buka folder **doc**.
+1. Buka folder `docs`.
 
 ![](../../../assets/images/tutorial/add/doc.jpg)
 
@@ -74,7 +74,7 @@ Jika akan membuat sub-page, maka harus membuat page **parent** dan page **childr
 Sebagai contoh, **parent** pada gambar di atas merujuk pada page tutorial, sedangkan untuk **children** atau sub-page-nya adalah **Mengedit page** dan **Menambah page**.
 
 <div class="code-example" markdown="1">
-1. Buka folder `doc`. Buka folder yang telah tersedia, atau dapat juga dengan menambahkan folder baru.
+1. Buka folder `docs`. Buka folder yang telah tersedia, atau dapat juga dengan menambahkan folder baru.
 2. Jika ingin membuat folder baru, buka `Create new file...` dan ketikkan nama folder, tambahkan tanda `/` maka folder akan otomatis terbuat. 
 
 ![](../../../assets/images/tutorial/add/folder.jpg)
