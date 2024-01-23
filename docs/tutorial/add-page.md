@@ -19,36 +19,97 @@ nav_order: 2
 ## Menambahkan Page Baru
 
 <div class="code-example" markdown="1">
-1. Buka page yang ingin diedit, misal ingin mengedit konten pada page `Tutorial`.
+1. Buka folder **doc**.
 
-![](../../../assets/images/tutorial/edit/page.jpg)
-
-{:style="counter-reset:none"}
-2. Scroll menuju bagian bawah page. Klik pada `Edit this page on GitHub`.
-
-![](../../../assets/images/tutorial/edit/link-page.jpg)
+![](../../../assets/images/tutorial/add/doc.jpg)
 
 {:style="counter-reset:none"}
-3. Akan muncul halaman preview untuk source code-nya pada repository Github, klik pada **ikon pensil** `(Edit this file)` untuk mengedit.
+2. Pada add file, klik pada `Create new file`.
 
-![](../../../assets/images/tutorial/edit/git-page.jpg)
-
-{:style="counter-reset:none"}
-4. Muncul source code dari page `Tutorial`. Terdapat beberapa bagian kode yang dipisahkan oleh tanda `---`. Bagian pertama merupakan metadata yang memberikan informasi mengenai page tersebut. Bagian kedua merupakan kode untuk navigasi yang berisikan judul dan table of contents. Di bagian bawahnya merupakan isi page tersebut.
-
-![](../../../assets/images/tutorial/edit/code-page1.jpg)
-
-**Edit kode pada bagian ini untuk merubah isi konten dari suatu page.**
-
-![](../../../assets/images/tutorial/edit/code-page2.jpg)
+![](../../../assets/images/tutorial/add/doc-new.jpg)
 
 {:style="counter-reset:none"}
-5. Jangan lupa di `commit` agar perubahannya dapat tersimpan.
+3. Akan muncul halaman baru, beri nama file tersebut dengan format `.md`. 
 
-![](../../../assets/images/tutorial/edit/commit-page.jpg)
+![](../../../assets/images/tutorial/add/contoh.jpg)
+
+Tambahkan kode berikut sebagai metadata untuk mengontrol file tersebut:
+
+```yml
+---
+layout: default  
+title: Contoh 
+nav_order: 9
+---
+```
+
+Biarkan `layout` sebagai default. Bagian `title` merupakan nama dari page tersebut untuk ditampilkan di navigation bar. Kemudian, `nav_order` merupakan urutan nama page pada navigation bar. Di bagian bawah metadata, tambahkan kode di bawah ini.
+
+```
+# [title]
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+---
+Masukkan konten di sini
+```
+
+Ubah `[title]` sesuai judul page, Di bawahnya terdapat kode untuk daftar isi (table of contents). Tambahkan `---` untuk memisahkan isi konten/page pada bagian baru. 
 
 {:style="counter-reset:none"}
-6. Cek kembali pada page `Tutorial` untuk melihat perubahannya.
-7. Cek website resmi [Just the Docs Template](https://just-the-docs.github.io/just-the-docs/) untuk mengetahui fitur-fiturnya lebih lanjut.
+4. Klik `commit changes...` untuk menyimpan.
+
+</div>
+
+## Menambahkan Sub-Page (Parent & Child)
+
+<div class="code-example" markdown="1">
+1. Pada folder **doc**, tambahkan folder baru. Untuk menambahkannya, ketikkan nama folder dan tambahkan tanda `/` maka folder akan otomatis terbuat. Setelah itu, buat file dengan format `.md` seperti sebelumnya.
+
+![](../../../assets/images/tutorial/add/folder.jpg)
+
+{:style="counter-reset:none"}
+2. Pada add file, klik pada `Create new file`.
+
+![](../../../assets/images/tutorial/add/doc-new.jpg)
+
+{:style="counter-reset:none"}
+3. Akan muncul halaman baru, beri nama file tersebut dengan format `.md`. 
+
+![](../../../assets/images/tutorial/add/contoh.jpg)
+
+Tambahkan kode berikut sebagai metadata untuk mengontrol file tersebut:
+
+```yml
+---
+layout: default  
+title: Contoh 
+nav_order: 9
+---
+```
+
+Biarkan `layout` sebagai default. Bagian `title` merupakan nama dari page tersebut untuk ditampilkan di navigation bar. Kemudian, `nav_order` merupakan urutan nama page pada navigation bar. Di bagian bawah metadata, tambahkan kode di bawah ini.
+
+```
+# [title]
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+---
+Masukkan konten di sini
+```
+
+Ubah `[title]` sesuai judul page, Di bawahnya terdapat kode untuk daftar isi (table of contents). Tambahkan `---` untuk memisahkan isi konten/page pada bagian baru. 
+
+{:style="counter-reset:none"}
+4. Klik `commit changes...` untuk menyimpan.
 
 </div>
