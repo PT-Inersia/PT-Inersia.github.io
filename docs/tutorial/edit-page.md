@@ -21,31 +21,31 @@ nav_order: 1
 <div class="code-example" markdown="1">
 1. Buka page yang ingin diedit, misal ingin mengedit konten pada page `Tutorial`.
 
-![](../../../tutorial/assets/images/page.jpg)
+![](../../../edit/tutorial/assets/images/page.jpg)
 
 {:style="counter-reset:none"}
 2. Scroll menuju bagian bawah page. Klik pada `Edit this page on GitHub`.
 
-![](../../../tutorial/assets/images/link-page.jpg)
+![](../../../edit/tutorial/assets/images/link-page.jpg)
 
 {:style="counter-reset:none"}
 3. Akan muncul halaman preview untuk source code-nya pada repository Github, klik pada **ikon pensil** `(Edit this file)` untuk mengedit.
 
-![](../../../tutorial/assets/images/git-page.jpg)
+![](../../../edit/tutorial/assets/images/git-page.jpg)
 
 {:style="counter-reset:none"}
 4. Muncul source code dari page `Tutorial`. Terdapat beberapa bagian kode yang dipisahkan oleh tanda `---`. Bagian pertama merupakan metadata yang memberikan informasi mengenai page tersebut. Bagian kedua merupakan kode untuk navigasi yang berisikan judul dan table of contents. Di bagian bawahnya merupakan isi page tersebut.
 
-![](../../../tutorial/assets/images/code-page1.jpg)
+![](../../../edit/tutorial/assets/images/code-page1.jpg)
 
 **Edit kode pada bagian ini untuk merubah isi konten dari suatu page.**
 
-![](../../../tutorial/assets/images/code-page2.jpg)
+![](../../../edit/tutorial/assets/images/code-page2.jpg)
 
 {:style="counter-reset:none"}
 5. Jangan lupa di `commit` agar perubahannya dapat tersimpan.
 
-![](../../../tutorial/assets/images/commit-page.jpg)
+![](../../../edit/tutorial/assets/images/commit-page.jpg)
 
 {:style="counter-reset:none"}
 6. Cek kembali pada page `Tutorial` untuk melihat perubahannya.
@@ -86,12 +86,12 @@ bundle exec jekyll serve
 {:style="counter-reset:none"}
 4. Tampilan web secara default menggunakan port `:4000` seperti pada gambar di bawah. Salin alamat web tersebut di browser.
 
-![](../../../tutorial/assets/images/server-page.jpg)
+![](../../../edit/tutorial/assets/images/server-page.jpg)
 
 {:style="counter-reset:none"}
 5. Sekarang sudah bisa mengedit page tersebut. Jika ingin mengedit isi konten, dapat ditemukan pada folder `docs` yang berekstensi `.md`. 
 
-![](../../../tutorial/assets/images/docs-page.jpg)
+![](../../../edit/tutorial/assets/images/docs-page.jpg)
 
 {:style="counter-reset:none"}
 6. Tekan `CTRL + C` pada terminal jika ingin menghentikan sesi.
@@ -151,10 +151,10 @@ Jika menggunakan VS Code, maka tinggal buka bar `Source Control`, tulis pesan ya
 {: .warning}
 Perhatikan bahwa pesan harus ditulis agar tidak terjadi error!
 
-![](../../../tutorial/assets/images/commit2-page.jpg)
+![](../../../edit/tutorial/assets/images/commit2-page.jpg)
 
 Jika telah berhasil di-commit, maka akan muncul tombol `Sync Changes`. Tekan tombol tersebut untuk mengsinkronisasi hasil commit-nya.
 
-![](../../../tutorial/assets/images/sync-page.jpg)
+![](../../../edit/tutorial/assets/images/sync-page.jpg)
 </div>
 
