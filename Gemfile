@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+git remote -vsource "https://rubygems.org"
 gemspec
 
 gem "jekyll-github-metadata", ">= 2.15"
