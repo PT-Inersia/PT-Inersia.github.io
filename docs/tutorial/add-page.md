@@ -73,7 +73,7 @@ Ubah `[title]` sesuai judul page, Di bawahnya terdapat kode untuk daftar isi (ta
 ![](../../../assets/images/tutorial/add/folder.jpg)
 
 {:style="counter-reset:none"}
-2. Pada add file, klik pada `Create new file`.
+2. Pada add file, klik `Create new file`.
 
 ![](../../../assets/images/tutorial/add/doc-new.jpg)
 
