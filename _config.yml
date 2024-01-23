@@ -18,7 +18,7 @@ description: A Jekyll theme for documentation
 baseurl: "/main" # the subpath of your site, e.g. /blog
 url: "https://PT-Inersia.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 repository: PT-Inersia/PT-Inersia.github.io # for github-metadata
-
+people: https://github.com/orgs/PT-Inersia/people
 permalink: pretty
 
 exclude:
@@ -120,7 +120,7 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "PT Inersia bergerak di bidang konsultasi energi terbarukan sejak © 2023-2024 "
+#footer_content: "PT Inersia bergerak di bidang konsultasi energi terbarukan sejak © 2023-2024 "
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter

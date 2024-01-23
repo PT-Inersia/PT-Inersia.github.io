@@ -24,4 +24,4 @@ Website ini digunakan untuk mendokumentasikan aset-aset yang dimiliki oleh PT In
      <a href="{{ member.html_url }}"><img src="{{ member.avatar_url }}" width="32" height="32" alt="{{ member.login }}"></a>
   </li>
 {% endfor %}
-</ul>PT Inersia sejak  &copy; 2023-{{ "now" | date: "%Y" }}. 
+</ul>
